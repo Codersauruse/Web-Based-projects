@@ -1,0 +1,213 @@
+article {
+  perspective: 2000px;
+}
+
+body {
+  background-color: black;
+}
+
+#vesakpandal {
+  margin-top: 10%;
+}
+@keyframes oop {
+  0% {
+    background-color: blue;
+  }
+
+  25% {
+    background-color: yellow;
+  }
+
+  50% {
+    background-color: red;
+  }
+
+  100% {
+    background-color: green;
+  }
+}
+
+
+@keyframes klk {
+  0% {
+    background-color: blue;
+  }
+
+  25% {
+    background-color: yellow;
+  }
+
+  50% {
+    background-color: red;
+  }
+
+  100% {
+    background-color: green;
+  }
+}
+
+@keyframes fg {
+  0% {
+    background-color: blue;
+  }
+
+  25% {
+    background-color: yellow;
+  }
+
+  50% {
+    background-color: red;
+  }
+
+  100% {
+    background-color: green;
+  }
+}
+
+@keyframes shehan {
+  0% {
+    background-color: blue;
+  }
+
+  25% {
+    background-color: yellow;
+  }
+
+  50% {
+    background-color: red;
+  }
+
+  100% {
+    background-color: green;
+  }
+}
+
+@keyframes shashini {
+  0% {
+    background-color: blue;
+  }
+
+  25% {
+    background-color: yellow;
+  }
+
+  50% {
+    background-color: red;
+  }
+
+  100% {
+    background-color: green;
+  }
+}
+@keyframes lk {
+  0% {
+    color: white;
+  }
+
+  25% {
+    color: yellow;
+  }
+
+  50% {
+    color: red;
+  }
+
+  100% {
+    color: green;
+  }
+}
+.firstside {
+  animation-name: oop;
+  background-color: blue;
+  border: grey 3px solid;
+  transform-style: preserve-3d;
+  transform: skewX(60deg);
+  width: 160px;
+  height: 58px;
+  position: relative;
+  left: 1%;
+  bottom: -400%;
+  margin: 0 auto;
+  animation-timing-function: linear;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+
+.secondside {
+  animation-name: klk;
+  background-color: blue;
+  border: grey 3px solid;
+  transform-style: preserve-3d;
+  transform: skewX(60deg);
+  width: 160px;
+  height: 57.7px;
+  margin: 0 auto;
+  position: fixed;
+  right: 43.5%;
+  bottom: -480%;
+  animation-timing-function: linear;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+
+.thirdside {
+  animation-name: fg;
+  background-color: blue;
+  border: grey 3px solid;
+  transform-style: preserve-3d;
+  height: 300px;
+  width: 100px;
+  margin: 0 auto;
+  transform: skewY(30deg);
+  position: fixed;
+  right: 51%;
+  bottom: -428%;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+
+.fourthside {
+  animation-name: shehan;
+  background-color: blue;
+  border: grey 4px solid;
+  transform-style: preserve-3d;
+  height: 299px;
+  width: 110px;
+  margin: 0 auto;
+  transform: skewY(30deg);
+  position: fixed;
+  right: 40%;
+  bottom: -428%;
+  animation-timing-function: linear;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+
+.fifthside {
+  animation-name: shashini;
+  background-color: blue;
+  margin: 0 auto;
+  transform-style: preserve-3d;
+  position: fixed;
+  height: 300px;
+  width: 160px;
+  border: grey 4px solid;
+  transform: rotateY(-2deg);
+  right: 40%;
+  animation-timing-function: linear;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+h1{
+  text-align: center;
+  animation-name: lk;
+  animation-timing-function: linear;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+img{
+   right:46%;
+   position: fixed;
+   ;
+
+}
