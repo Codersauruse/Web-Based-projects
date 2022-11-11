@@ -1,2 +1,2 @@
-# Web-Based-projects
+# Vesak-lantern
 // Some collection of  Css, Javascript projects.
